@@ -1,6 +1,7 @@
+version: "3.9"
 services:
   web:
-    image: lorna.tv
+    image: ghcr.io/<GITHUB_USER>/lorna.tv:latest
     ports:
       - "8080:80"
     restart: unless-stopped
