@@ -2,7 +2,6 @@ version: "3.9"
 services:
   web:
     build: .
-    image: lorna.tv:latest
     container_name: lorna-web
     restart: unless-stopped
     # optional pendant la transition :
