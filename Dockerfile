@@ -1,20 +1,16 @@
-# --- build ---
-FROM node:18-alpine AS build
+# build
+FROM node:20-alpine AS build
 WORKDIR /app
-
-ARG APP_DIR=lorna.tv-main
-
-# lock optionnel
-COPY ${APP_DIR}/package.json ${APP_DIR}/package-lock.json* ./
-RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
-
-# code
-COPY ${APP_DIR}/ ./
+COPY package*.json ./
+RUN npm ci
+COPY . .
 RUN npm run build
 
-# --- run (nginx) ---
-FROM nginx:alpine
-COPY ${APP_DIR}/nginx.conf /etc/nginx/conf.d/default.conf
+# serve
+FROM nginx:1.27-alpine
+# sécurité + gzip + cache + SPA routing
+RUN apk add --no-cache bash
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+HEALTHCHECK CMD wget -qO- http://127.0.0.1/ >/dev/null 2>&1 || exit 1
