@@ -5,16 +5,11 @@ services:
     image: lorna.tv:latest
     container_name: lorna-web
     restart: unless-stopped
+    # optional pendant la transition :
     ports:
       - "8080:80"
-    # Si Traefik est en place, commente "ports" et décommente les labels + network ci-dessous
-    # labels:
-    #   - "traefik.enable=true"
-    #   - "traefik.http.routers.lorna.rule=Host(`lorna.tv`)"
-    #   - "traefik.http.routers.lorna.entrypoints=websecure"
-    #   - "traefik.http.routers.lorna.tls.certresolver=letsencrypt"
-    # networks:
-    #   - proxy
-# networks:
-#   proxy:
-#     external: true
+    networks:
+      - proxy
+networks:
+  proxy:
+    external: true
