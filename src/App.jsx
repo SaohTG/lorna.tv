@@ -19,7 +19,7 @@ export default function LornaTvLanding() {
   }, []);
 
   const platforms = [
-    { title: "iOS / iPadOS", points: ["Picture‑in‑Picture", "AirPlay", "Gestes rapides", "Widgets"] },
+    { title: "iOS / iPadOS", points: ["Picture-in-Picture", "AirPlay", "Gestes rapides", "Widgets"] },
     { title: "Android", points: ["Chromecast", "Navigation TV", "Raccourcis", "Intégration système"] },
     { title: "Web (SaaS)", points: ["Aucune installation", "Sauvegarde cloud", "Gestion appareils", "Mises à jour continues"] },
   ];
@@ -28,7 +28,7 @@ export default function LornaTvLanding() {
     { title: "Connexion M3U & Xtream", desc: "Playlist M3U / identifiants Xtream. Détection automatique, EPG, logos chaînes.", icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
     )},
-    { title: "Sync multi‑appareils", desc: "Favoris, historique et watchlist synchronisés entre iOS, Android et Web.", icon: (
+    { title: "Sync multi-appareils", desc: "Favoris, historique et watchlist synchronisés entre iOS, Android et Web.", icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M8 18h8M4 6h16v10H4z"/></svg>
     )},
     { title: "Guide TV & Recherche", desc: "EPG clair, filtres, recherche rapide et zapping fluide.", icon: (
@@ -91,7 +91,13 @@ export default function LornaTvLanding() {
             <a href="#faq" className="hover:text-white">FAQ</a>
           </nav>
           <div className="hidden md:flex items-center gap-3">
-            <a href="#cta" className="inline-flex items-center rounded-xl border border-white/10 px-4 py-2 text-sm hover:bg-white/5">Essayer le Web</a>
+            {/* LIEN MODIFIÉ */}
+            <a
+              href="https://lector.lorna.tv"
+              className="inline-flex items-center rounded-xl border border-white/10 px-4 py-2 text-sm hover:bg-white/5"
+            >
+              Essayer le Web
+            </a>
             <a href="#cta" className="inline-flex items-center rounded-xl bg-white text-neutral-900 px-4 py-2 text-sm font-medium hover:bg-white/90">Créer un compte</a>
           </div>
           <button className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 hover:bg-white/5" onClick={() => setOpen(!open)}>
@@ -106,7 +112,13 @@ export default function LornaTvLanding() {
               <a onClick={() => setOpen(false)} href="#pricing" className="py-2">Tarifs</a>
               <a onClick={() => setOpen(false)} href="#faq" className="py-2">FAQ</a>
               <div className="pt-2 flex gap-2">
-                <a href="#cta" className="flex-1 inline-flex items-center justify-center rounded-xl border border-white/10 px-4 py-2">Essayer le Web</a>
+                {/* LIEN MODIFIÉ */}
+                <a
+                  href="https://lector.lorna.tv"
+                  className="flex-1 inline-flex items-center justify-center rounded-xl border border-white/10 px-4 py-2"
+                >
+                  Essayer le Web
+                </a>
                 <a href="#cta" className="flex-1 inline-flex items-center justify-center rounded-xl bg-white text-neutral-900 px-4 py-2 font-medium">Créer un compte</a>
               </div>
             </div>
@@ -225,10 +237,10 @@ export default function LornaTvLanding() {
         <FadeUp><h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">Questions fréquentes</h2></FadeUp>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           {[
-            { q: "lorna.tv fournit‑il du contenu ?", a: "Non. lorna.tv est un lecteur/gestionnaire IPTV. Vous devez fournir vos propres sources légales (M3U/Xtream)." },
+            { q: "lorna.tv fournit-il du contenu ?", a: "Non. lorna.tv est un lecteur/gestionnaire IPTV. Vous devez fournir vos propres sources légales (M3U/Xtream)." },
             { q: "Sur quels appareils fonctionne l’app ?", a: "iPhone/iPad (iOS/iPadOS), smartphones/tablettes Android, et navigateur web (SaaS)." },
-            { q: "Mes favoris sont‑ils synchronisés ?", a: "Oui, avec un compte unique, vos favoris, historiques et profils sont synchronisés partout." },
-            { q: "Puis‑je partager mon compte ?", a: "Vous pouvez connecter plusieurs appareils. Les limites exactes dépendent de votre offre et de l’usage simultané." },
+            { q: "Mes favoris sont-ils synchronisés ?", a: "Oui, avec un compte unique, vos favoris, historiques et profils sont synchronisés partout." },
+            { q: "Puis-je partager mon compte ?", a: "Vous pouvez connecter plusieurs appareils. Les limites exactes dépendent de votre offre et de l’usage simultané." },
           ].map((f, i) => (
             <Card key={f.q} index={i}>
               <h3 className="font-medium">{f.q}</h3>
