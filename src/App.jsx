@@ -93,7 +93,7 @@ export default function LornaTvLanding() {
           <div className="hidden md:flex items-center gap-3">
             {/* LIEN MODIFIÉ */}
             <a
-              href="https://lector.lorna.tv"
+              href="https://app.lorna.tv"
               className="inline-flex items-center rounded-xl border border-white/10 px-4 py-2 text-sm hover:bg-white/5"
             >
               Essayer le Web
