@@ -23,7 +23,7 @@ export default function LornaTvLanding() {
       title: "iOS / iPadOS", 
       points: ["Picture-in-Picture", "AirPlay", "Gestes rapides", "Widgets"],
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
           <line x1="8" y1="21" x2="16" y2="21"/>
           <line x1="12" y1="17" x2="12" y2="21"/>
@@ -35,7 +35,7 @@ export default function LornaTvLanding() {
       title: "Android", 
       points: ["Chromecast", "Navigation TV", "Raccourcis", "Intégration système"],
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
           <circle cx="9" cy="7" r="4"/>
           <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
@@ -48,7 +48,7 @@ export default function LornaTvLanding() {
       title: "Web (SaaS)", 
       points: ["Aucune installation", "Sauvegarde cloud", "Gestion appareils", "Mises à jour continues"],
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="12" cy="12" r="3"/>
           <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
         </svg>
@@ -62,7 +62,7 @@ export default function LornaTvLanding() {
       title: "Connexion M3U & Xtream", 
       desc: "Connectez instantanément vos playlists M3U et identifiants Xtream. Détection automatique des chaînes, EPG complet et logos personnalisés.", 
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
         </svg>
       ),
@@ -72,7 +72,7 @@ export default function LornaTvLanding() {
       title: "Sync multi-appareils", 
       desc: "Vos favoris, historique et watchlist se synchronisent automatiquement entre tous vos appareils iOS, Android et Web.", 
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
           <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
           <line x1="12" y1="22.08" x2="12" y2="12"/>
@@ -84,7 +84,7 @@ export default function LornaTvLanding() {
       title: "Guide TV & Recherche", 
       desc: "EPG ultra-clair avec filtres avancés, recherche intelligente et zapping fluide pour une navigation parfaite.", 
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="11" cy="11" r="8"/>
           <path d="M21 21l-4.35-4.35"/>
         </svg>
@@ -95,7 +95,7 @@ export default function LornaTvLanding() {
       title: "Profils & Contrôle parental", 
       desc: "Créez des profils personnalisés avec contrôles parentaux avancés, PIN de sécurité et restrictions par catégories.", 
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/>
           <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
         </svg>
@@ -106,7 +106,7 @@ export default function LornaTvLanding() {
       title: "Performance optimale", 
       desc: "Lecteur ultra-moderne avec faible latence, cache intelligent et reprise instantanée pour une expérience fluide.", 
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="12" cy="12" r="10"/>
           <path d="M12 6v6l4 2"/>
         </svg>
@@ -117,7 +117,7 @@ export default function LornaTvLanding() {
       title: "SaaS ultra-sécurisé", 
       desc: "Espace Web chiffré de bout en bout, authentification forte et gestion centralisée de tous vos appareils.", 
       icon: (
-        <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">
           <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
           <circle cx="12" cy="16" r="1"/>
           <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
@@ -155,14 +155,14 @@ export default function LornaTvLanding() {
         animate={showTop ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
         transition={{ duration: 0.25 }}
       >
-        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+        <svg viewBox="0 0 24 24" className="h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
       </motion.button>
 
       <motion.header initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.35 }} className="sticky top-0 z-50 backdrop-blur bg-neutral-950/70 border-b border-white/10">
         <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4">
           <div className="flex items-center gap-3">
-            <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-blue-500 to-cyan-400 grid place-items-center">
-              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="white" strokeWidth="1.6"><path d="M4 12l6 6 10-12" /></svg>
+            <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-blue-500 to-cyan-400 flex items-center justify-center">
+              <svg viewBox="0 0 24 24" className="h-5 w-5 flex-shrink-0" fill="none" stroke="white" strokeWidth="1.6"><path d="M4 12l6 6 10-12" /></svg>
             </div>
             <span className="font-semibold tracking-tight">lorna.tv</span>
           </div>
@@ -183,7 +183,7 @@ export default function LornaTvLanding() {
             <a href="#cta" className="inline-flex items-center rounded-xl bg-white text-neutral-900 px-4 py-2 text-sm font-medium hover:bg-white/90">Créer un compte</a>
           </div>
           <button className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 hover:bg-white/5" onClick={() => setOpen(!open)}>
-            <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">{open ? (<path d="M6 18L18 6M6 6l12 12" />) : (<path d="M3 6h18M3 12h18M3 18h18" />)}</svg>
+            <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5">{open ? (<path d="M6 18L18 6M6 6l12 12" />) : (<path d="M3 6h18M3 12h18M3 18h18" />)}</svg>
           </button>
         </div>
         {open && (
@@ -235,7 +235,7 @@ export default function LornaTvLanding() {
                   <svg className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 7l5 5-5 5M6 12h12"/></svg>
                 </a>
                 <a className="inline-flex items-center rounded-2xl border-2 border-white/20 bg-white/5 backdrop-blur-sm px-8 py-4 font-medium hover:bg-white/10 hover:border-white/30 transition-all duration-300" href="#features">
-                  <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                   Voir les fonctionnalités
                 </a>
               </div>
@@ -260,10 +260,10 @@ export default function LornaTvLanding() {
           <FadeScale>
             <div className="relative">
               <div className="aspect-[16/10] w-full rounded-3xl border border-white/20 bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 shadow-2xl shadow-cyan-500/20 p-6 backdrop-blur-sm">
-                <div className="h-full w-full rounded-2xl border border-white/20 bg-gradient-to-br from-neutral-950/90 to-neutral-900/90 grid place-items-center text-center p-8 relative overflow-hidden">
+                <div className="h-full w-full rounded-2xl border border-white/20 bg-gradient-to-br from-neutral-950/90 to-neutral-900/90 flex items-center justify-center text-center p-8 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5"></div>
                   <div className="relative z-10">
-                    <div className="mx-auto mb-6 h-16 w-16 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-500 grid place-items-center shadow-lg shadow-cyan-500/30">
+                    <div className="mx-auto mb-6 h-16 w-16 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center shadow-lg shadow-cyan-500/30">
                       <svg viewBox="0 0 24 24" className="h-8 w-8 text-white" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 5v14l11-7-11-7z" /></svg>
                     </div>
                     <h3 className="text-2xl font-bold text-white mb-2">Aperçu du lecteur</h3>
@@ -299,7 +299,7 @@ export default function LornaTvLanding() {
           {platforms.map((p, i) => (
             <Card key={p.title} index={i} className="group hover:scale-105 transition-transform duration-300">
               <div className="flex items-center gap-4">
-                <div className={`h-12 w-12 rounded-2xl bg-gradient-to-br ${p.color} grid place-items-center shadow-lg group-hover:shadow-xl transition-shadow duration-300`}>
+                <div className={`h-12 w-12 rounded-2xl bg-gradient-to-br ${p.color} flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow duration-300`}>
                   {p.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-white">{p.title}</h3>
@@ -325,7 +325,7 @@ export default function LornaTvLanding() {
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f, i) => (
             <Card key={f.title} index={i} className="group hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/10">
-              <div className={`h-14 w-14 rounded-2xl bg-gradient-to-br ${f.color} grid place-items-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110`}>
+              <div className={`h-14 w-14 rounded-2xl bg-gradient-to-br ${f.color} flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110`}>
                 {f.icon}
               </div>
               <h3 className="mt-6 text-xl font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">{f.title}</h3>
@@ -432,7 +432,7 @@ export default function LornaTvLanding() {
               )}
               <div className="text-center">
                 <div className={`inline-flex h-16 w-16 rounded-2xl bg-gradient-to-br ${p.highlight ? 'from-cyan-500 to-blue-500' : 'from-gray-500 to-gray-600'} items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110`}>
-                  <svg className="h-8 w-8 text-white" fill="none" stroke="currentColor" strokeWidth="2">
+                  <svg className="h-8 w-8 text-white flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                   </svg>
                 </div>
@@ -501,8 +501,8 @@ export default function LornaTvLanding() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-4">
-                <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-blue-500 to-cyan-400 grid place-items-center">
-                  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="white" strokeWidth="1.6"><path d="M4 12l6 6 10-12" /></svg>
+                <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-blue-500 to-cyan-400 flex items-center justify-center">
+                  <svg viewBox="0 0 24 24" className="h-6 w-6 flex-shrink-0" fill="none" stroke="white" strokeWidth="1.6"><path d="M4 12l6 6 10-12" /></svg>
                 </div>
                 <span className="text-xl font-bold text-white">lorna.tv</span>
               </div>
@@ -511,13 +511,13 @@ export default function LornaTvLanding() {
               </p>
               <div className="flex gap-4">
                 <a href="#" className="h-10 w-10 rounded-xl bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                  <svg className="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
                 </a>
                 <a href="#" className="h-10 w-10 rounded-xl bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+                  <svg className="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
                 </a>
                 <a href="#" className="h-10 w-10 rounded-xl bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  <svg className="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 </a>
               </div>
             </div>
@@ -586,8 +586,8 @@ function DeviceCard({ label }) {
   return (
     <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur px-4 py-3 shadow-xl shadow-black/40">
       <div className="flex items-center gap-3">
-        <div className="h-9 w-9 rounded-xl bg-white/10 grid place-items-center">
-          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="4" y="3" width="16" height="12" rx="2" /><path d="M8 21h8" /></svg>
+        <div className="h-9 w-9 rounded-xl bg-white/10 flex items-center justify-center">
+          <svg viewBox="0 0 24 24" className="h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="4" y="3" width="16" height="12" rx="2" /><path d="M8 21h8" /></svg>
         </div>
         <div>
           <p className="text-sm font-medium">{label}</p>
