@@ -107,7 +107,8 @@ export default function LornaTvLanding() {
       desc: "Lecteur ultra-moderne avec faible latence, cache intelligent et reprise instantanée pour une expérience fluide.", 
       icon: (
         <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 6v6l4 2"/>
         </svg>
       ),
       color: "from-red-500 to-pink-400"
